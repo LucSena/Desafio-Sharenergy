@@ -18,7 +18,7 @@ const UserList = () => {
                 <div class="col-span-1">
                     <div class="flex items-center w-full justify-center">
                         <div class="max-w-xs">
-                            <div class="bg-white shadow-xl rounded-lg py-3">
+                            <div class="bg-white shadow-xl rounded-lg py-3 w-64">
                                 <div class="photo-wrapper p-2">
                                     <img class="w-32 h-32 rounded-full mx-auto" src={user.picture.large} alt={user.name.first} />
                                 </div>
